@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.header-list {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.header-link {
+  color: #212121;
+}
+
+.header-link:not(:last-child) {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
