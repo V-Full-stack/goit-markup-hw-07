@@ -1,0 +1,23 @@
+.mail-link {
+  margin-right: 50px;
+}
+
+.top-down-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  font-style: normal;
+}
+
+.top-down-contact:hover,
+.top-down-contact:focus {
+  color: var(--blue-color);
+}
+
+.address-icon,
+.tel-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

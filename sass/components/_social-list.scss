@@ -1,0 +1,68 @@
+.social-icons {
+  margin-left: -10px;
+  margin-top: 16px;
+  display: flex;
+  list-style: none;
+  display: inline-flex;
+}
+
+.socials-icons-item {
+  margin-left: 10px;
+}
+
+.social-icons-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: transparent;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons-svg {
+  fill: currentColor;
+  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons-link-footer {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.footer-twitter {
+  background: var(--blue-color);
+  color: var(--secondary-title-color);
+}
+
+.social-icons-link:hover,
+.social-icons-link:focus {
+  color: var(--primary-beackround-color);
+  background-color: var(--blue-color);
+}
+
+.social-title-box {
+  margin-left: 70px;
+}
+
+.social-title {
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+
+.social-icons-list {
+  margin-left: -10px;
+  display: flex;
+  list-style: none;
+  display: inline-flex;
+}

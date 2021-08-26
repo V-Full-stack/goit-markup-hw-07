@@ -1,25 +1,17 @@
-body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-}
+//UTILS
+@import "./utils/variables";
 
-img {
-  display: block;
-  width: 100%;
-}
+//BASE
+@import "./base/common";
+@import "./base/container";
 
-.header-list {
-  cursor: pointer;
-  margin-left: auto;
-}
+//COMPONENTS
+@import "./components/modal-btn";
+@import "./components/social-links-list";
+@import "./components/suptitle";
+@import "./components/description";
+@import "./components/title";
+@import "./components/social-list";
 
-.header-link {
-  color: #212121;
-}
-
-.header-link:not(:last-child) {
-  margin-right: 50px;
-  display: flex;
-  align-items: center;
-  position: relative;
-}
+//LAYOUT
+@import "./layout/header";

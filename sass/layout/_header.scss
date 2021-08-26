@@ -1,0 +1,51 @@
+.header {
+  padding: 24px 0 25px 0;
+  border: 1px solid #ececec;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding: 94px 0;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #212121;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.col-logo-footer {
+  color: #ffffff;
+}
+
+.logo-accent {
+  color: #2196f3;
+}
+
+.header-list-nav {
+  margin-left: 94px;
+}
+
+.mail-link {
+  margin-right: 50px;
+}
